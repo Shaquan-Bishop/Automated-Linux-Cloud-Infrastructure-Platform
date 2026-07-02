@@ -1,4 +1,4 @@
-Automated Linux Cloud Infrastructure Platform
+***Automated Linux Cloud Infrastructure Platform***
 
 A long-term, continuously maintained Red Hat Enterprise Linux (RHEL) infrastructure and automation lab designed to build and reinforce real-world systems administration, DevOps, and cloud engineering skills.
 
