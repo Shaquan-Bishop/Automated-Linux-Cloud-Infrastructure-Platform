@@ -1,0 +1,26 @@
+ INTERNET
+                            |
+                    [ Gateway Router ]
+                            |
+                    +-------------------+
+                    |   Smart Switch    |
+                    | 192.168.10.1      |
+                    +-------------------+
+        ________________|_________|_________________
+
+        |               |                 |
+        |               |                 |
+CONTROL NODE        NODE 2            NODE 3
+192.168.10.10       192.168.10.11     192.168.10.12
+----------------    --------------    --------------
+Ansible (10.20)     Web (10.32)       Ansible target 1 (10.41)
+DNS (10.21)         App (10.31)       Ansible target 2 (10.42)
+Repo (10.22)        Database (10.33)  Ansible target 3 (10.43)
+Free/IPA (10.23)    Container (10.34) Break/Fix (10.44)
+                                      Monitoring (10.45)
+                        |
+                        |
+              Workstation (PuTTY / SSH)
+                  192.168.10.100
+
+                        
