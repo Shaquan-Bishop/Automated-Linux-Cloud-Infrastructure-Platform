@@ -39,14 +39,14 @@ CentOS 10
 All infrastructure is fully virtualized and managed through Proxmox.
 
 🧱 Infrastructure Layout
-Control Node (Bare Metal)
+---Control Node (Bare Metal)
 Dedicated primary management node
 Runs full allocated hardware resources
 Hosts critical management services
 Acts as central control point for the entire environment
 
 
-Node 2 (Application / Services Layer)
+---Node 2 (Application / Services Layer)
 
 Virtual machines hosted:
 
@@ -61,7 +61,7 @@ auth1 (Authentication services)
 container1 (Containerized workloads)
 
 
-Node 3 (Automation / RHEL Targets / Support Systems)
+---Node 3 (Automation / RHEL Targets / Support Systems)
 
 Virtual machines hosted:
 
