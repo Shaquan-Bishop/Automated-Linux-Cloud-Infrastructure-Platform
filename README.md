@@ -100,6 +100,7 @@ Future Potential Use Cases:
 Personal chatbot hosting environment
 Network-wide ad blocking services
 Expanded DevOps / cloud simulation platform
+
 🔐 Access & Management
 All nodes and VMs are headless
 Access is performed remotely via PuTTY (SSH)
