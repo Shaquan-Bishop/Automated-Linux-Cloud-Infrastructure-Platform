@@ -44,6 +44,7 @@ Dedicated primary management node
 Runs full allocated hardware resources
 Hosts critical management services
 Acts as central control point for the entire environment
+
 Node 2 (Application / Services Layer)
 
 Virtual machines hosted:
@@ -53,6 +54,7 @@ app1 (Application server)
 db1 (Database server)
 auth1 (Authentication services)
 container1 (Containerized workloads)
+
 Node 3 (Automation / RHEL Targets / Support Systems)
 
 Virtual machines hosted:
