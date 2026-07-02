@@ -50,9 +50,13 @@ Node 2 (Application / Services Layer)
 Virtual machines hosted:
 
 web1 (Web services)
+
 app1 (Application server)
+
 db1 (Database server)
+
 auth1 (Authentication services)
+
 container1 (Containerized workloads)
 
 Node 3 (Automation / RHEL Targets / Support Systems)
@@ -60,10 +64,15 @@ Node 3 (Automation / RHEL Targets / Support Systems)
 Virtual machines hosted:
 
 rhel1 (Ansible target)
+
 rhel2 (Ansible target)
+
 centos1 (Ansible target)
+
 breakfix1 (system recovery / troubleshooting environment)
+
 monitor1 (monitoring stack)
+
 🧠 Design Decisions
 
 The architecture was intentionally designed based on the following principles:
